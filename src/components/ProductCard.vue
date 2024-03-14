@@ -47,7 +47,7 @@ function changeBasketItem(item: ProductModel) {
             <p class="line-clamp-2 break-all mb-4">{{ item.description.uz }}</p>
 
             <div class="flex items-center justify-between gap-2.5">
-                <p class="font-semibold">{{ formatNumber_UTIL(item.price) }} so'm</p>
+                <p class="font-semibold">{{ formatNumber_UTIL(item.price) }} sum</p>
 
                 <div v-if="item.count" class="flex items-center gap-0.5 p-1 bg-white rounded-3xl overflow-hidden">
                     <button @click="decrement(item)" class="px-1"><i class="ri-subtract-line text-xl text-black"></i></button>

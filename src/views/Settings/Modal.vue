@@ -49,7 +49,7 @@ defineExpose({
 </script>
 
 <template>
-    <el-dialog v-model="_visible" :title="_formData.id ? 'Tahrirlash' : 'Yangi qo’shish'" style="width: 100%; max-width: 500px;" @close="close">
+    <el-dialog v-model="_visible" :title="_formData.id ? 'Edit' : 'Add new'" style="width: 100%; max-width: 500px;" @close="close">
         <el-form label-position="top" @submit.prevent="submit" :model="_formData" :rules="rules" ref="_formRef">
 
             <div class="grid grid-cols-9 items-end gap-5 mb-2">
