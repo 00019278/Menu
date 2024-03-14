@@ -1,9 +1,21 @@
 <script setup lang="ts">
 
 import MainSection from './MainSection.vue'
-import { _productStore } from '@/services/product';
+import { _productStore, type ProductModel } from '@/services/product';
 import BaseFooter from '@/components/BaseFooter.vue';
 import ProductCard from '@/components/ProductCard.vue';
+import Products_Json from './products.json'
+
+console.log(Products_Json);
+
+if(_productStore.value.length == 0) {
+  console.log("yo'q");
+
+  Products_Json.forEach((item: any) => {
+    item.id = new Date().getTime();
+    _productStore.value.push(item);
+  })
+}
 </script>
 
 <template>

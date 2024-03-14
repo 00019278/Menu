@@ -1,0 +1,50 @@
+[
+    {
+        "id": 0,
+        "image": "https://images3.alphacoders.com/922/922680.jpg",
+        "name": {
+            "uz": "Product One",
+            "ru": "Product One",
+            "eng": "Product One"
+        },
+        "description": {
+            "uz": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the",
+            "ru": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the",
+            "eng": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the"
+        },
+        "price": 30000,
+        "count": 0
+    },
+    {
+        "id": 0,
+        "image": "https://images3.alphacoders.com/922/922680.jpg",
+        "name": {
+            "uz": "Product Two",
+            "ru": "Product Two",
+            "eng": "Product Two"
+        },
+        "description": {
+            "uz": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the",
+            "ru": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the",
+            "eng": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the"
+        },
+        "price": 55000,
+        "count": 0
+    },
+    {
+        "id": 0,
+        "image": "https://images3.alphacoders.com/922/922680.jpg",
+        "name": {
+            "uz": "Product Three",
+            "ru": "Product Three",
+            "eng": "Product Three"
+        },
+        "description": {
+            "uz": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the",
+            "ru": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the",
+            "eng": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the"
+        },
+        "price": 45000,
+        "count": 0
+    }
+]

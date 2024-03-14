@@ -55,7 +55,7 @@ defineExpose({
             <div class="grid grid-cols-9 items-end gap-5 mb-2">
                 <img class="col-span-4 aspect-[9/6] object-cover object-center rounded-xl mb-[18px]" :src="_formData.image" alt="">
 
-                <el-form-item class="col-span-5" label="Narxi" prop="price">
+                <el-form-item class="col-span-5" label="Price" prop="price">
                     <el-input v-model="_formData.price" type="number" />
                 </el-form-item>
             </div>
